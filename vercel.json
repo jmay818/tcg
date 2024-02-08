@@ -1,8 +1,5 @@
 {
   "rewrites": [
-    { "source": "/", "destination": "/tcg.html" }
-  ],
-  "routes": [
-    { "src": "/tcg\\.html", "dest": "/" }
+    { "source": "/", "destination": "/tcg.html" },
   ]
 }
