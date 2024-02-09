@@ -1,4 +1,3 @@
 {
-  "rewrites": [{ "source": "/", "destination": "/tcg.html" }],
-  "rewrites": [{ "source": "/tcg.html", "destination": "/" }]
+  "rewrites": [{ "source": "/", "destination": "/tcg.html" }, { "source": "/", "destination": "/tcg.html" }]
 }
