@@ -1,3 +1,6 @@
 {
+  "redirects": [
+    { "source": "/tcg.html", "destination": "/", "statusCode": 200 }
+  ],
   "rewrites": [{ "source": "/", "destination": "/tcg.html" }]
 }
