@@ -2,6 +2,5 @@
   "redirects": [
     { "source": "/home.html", "destination": "/", "statusCode": 200 }
   ],
-  "rewrites": [{ "source": "/", "destination": "/home.html" }],
-  "cleanUrls": true
+  "rewrites": [{ "source": "/", "destination": "/home.html" }]
 }
