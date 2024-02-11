@@ -1,4 +1,6 @@
 {
-  "rewrites": [{ "source": "/", "destination": "/tcg.html" }],
-  "routes": [{ "src": "/tcg.html", "dest": "/" }],
+  "rewrites": [{ "source": "/", "destination": "/tcg.html" }]
+}
+{
+  "rewrites": [{ "source": "/tcg.html", "destination": "/" }]
 }
