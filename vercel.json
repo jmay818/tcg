@@ -1,6 +1,6 @@
 {
-  "redirects": [
-    { "source": "/home.html", "destination": "/", "statusCode": 200 }
+  "rewrites": [
+    { "source": "public/assets/home.html", "destination": "/", "statusCode": 200 }
   ],
-  "rewrites": [{ "source": "/", "destination": "/home.html" }]
+  "rewrites": [{ "source": "/", "destination": "public/assets/home.html" }]
 }
