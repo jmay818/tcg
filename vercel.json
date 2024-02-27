@@ -1,6 +1,3 @@
 {
-  "rewrites": [
-    { "source": "public/assets/home.html", "destination": "/", "statusCode": 200 }
-  ],
-  "rewrites": [{ "source": "/", "destination": "public/assets/home.html" }]
+  "rewrites": [{ "source": "/", "destination": "home.html" }]
 }
