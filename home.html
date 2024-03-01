@@ -7,8 +7,8 @@
         <link rel="icon" type="image/x-icon" href="/favicon.ico">
         <title>thecryptogoat.org</title>
         <script>
-            window.onload = function () {
-                document.addEventListener('DOMContentLoaded' , function() {
+            document.addEventListener('DOMContentLoaded' , function() {
+                window.onload = function () {
                     document.querySelector('#popup-image').onclick = function () {
                         document.querySelector('#popup-window').style.display = 'none';
                     }
@@ -18,8 +18,8 @@
                             document.querySelector('#popup-image').src = image.getAttribute('src');
                         }
                     });
-                });
-            }
+                }  
+            });
         </script>
         <style>
             h5 {
