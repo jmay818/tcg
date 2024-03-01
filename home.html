@@ -7,18 +7,16 @@
         <link rel="icon" type="image/x-icon" href="/favicon.ico">
         <title>thecryptogoat.org</title>
         <script>
-            document.addEventListener('DOMContentLoaded' , function() {
-                window.onload = function () {
-                    document.querySelector('#popup-image').onclick = function () {
-                        document.querySelector('#popup-window').style.display = 'none';
+            document.addEventListener('DOMContentLoaded', function() {
+                document.querySelector('#popup-image').onclick = function () {
+                    document.querySelector('#popup-window').style.display = 'none';
+                }
+                document.querySelectorAll('#sidescroll img').forEach(image => {
+                    image.onclick = () => {
+                        document.querySelector('#popup-window').style.display = 'block';
+                        document.querySelector('#popup-image').src = image.getAttribute('src');
                     }
-                    document.querySelectorAll('#sidescroll img').forEach(image => {
-                        image.onclick = () => {
-                            document.querySelector('#popup-window').style.display = 'block';
-                            document.querySelector('#popup-image').src = image.getAttribute('src');
-                        }
-                    });
-                }  
+                });
             });
         </script>
         <style>
@@ -49,7 +47,7 @@
             .image {
                 display: inline;
                 cursor: pointer;
-                padding-left: 7px;
+                padding: 7px;
             }
             .image img {
                 border-style: outset;
